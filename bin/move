@@ -8,3 +8,4 @@ input = gets.strip
 array = board
 index = input_to_index(input)
 player = "X"
+move()

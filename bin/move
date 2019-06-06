@@ -5,7 +5,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Welcome to Tic Tac Toe!"
 puts "Where would you like to go?"
 input = gets.strip
-array = board
 index = input_to_index(input)
-player = "X"
-move(array, index, player)
+move(board, index)

@@ -9,4 +9,3 @@ array = board
 index = input_to_index(input)
 player = "X"
 move(array, index, player)
-
